@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+.root {
+  background-color: black;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+
+  text-align: left;
+}
+#main {
+  display: flex;
+}
+#right {
+  width: 50vw;
+  height: 100vh;
+  background-color: black;
+}
+#headihg {
+  color: #4c4f74;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#disc {
+ 
+
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+ 
+
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+
+  margin-left: 30px;
+  margin-top: 60px;
+ 
+}
+
+#logo {
+  margin-left: 40px;
+  margin-top: 30px;
+  height: 400px;
+}
+#left {
+  width: 50vw;
+  height: 100vh;
+  background-color: #575a85;
+  position: relative;
+}
+
+
+
+#iphead {
+  color: #b8bccc;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  top: 300px;
+  left: 80px;
+  text-align: left;
+}
+
+#spn1 {
+  color: white;
+  margin-top: 300;
+  margin-right: 0px;
+}
+
+#btnDiv button {
+  width: 280px;
+  height: 67px;
+  border-radius: 10px;
+
+  margin: 10px 0;
+
+  background-color: #575a85;
+  color: white;
+
+  padding: 15px 80px;
+
+  border-radius: 10px;
+  border: 1px solid white;
+  left: 220px;
+  top: 350px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+}
+
+#btnDiv button:hover {
+  background-color: rgb(195, 188, 226);
+  color: black;
+}
+#h {
+  /* margin-top: 5px; */
+  margin-left: 50px;
+  background-color: black;
+}
+
+.infoDiv {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3px;
+  margin-left: 50px;
+  line-height: 45px;
+}
+
+#infoDiv1 {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#mapDiv {
+  background-color: #575a85;
+  position: relative;
+  margin-top: 80px;
+}
+#lochead {
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  color:#B8BCCC;
+
+}
+
+#mapFrame {
+  margin: 40px 0;
+  width: 100%;
+  height: 500px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-weight: 500;
+}
+
+#moreHead{
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#B8BCCC;
+
+    margin-top:30px;
+    margin-bottom: 90px;
+
+}
+
+#infoDiv2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#postalInfoDiv {
+  margin-top: 50px;
+}
+
+#searchbarDiv {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#searchbarDiv input {
+  flex: 1;
+  border: none;
+  padding: none;
+}
+
+#searchbarDiv input::placeholder {
+  font-size: 25px;
+  color: black;
+}
+
+#searchbarDiv input:focus {
+  border: none;
+  outline: none;
+  font-size: 22px;
+}
+
+#searchbarDiv img {
+  height: 25px;
+  width: 25px;
+}
+
+#postalCardDiv {
+  margin-top: 2rem;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  row-gap: 2rem;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 565px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+
+  padding: 1.5rem;
+  background-color: #575a85;
+  font-family: "Inter", sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 35px;
+ letter-spacing: 0em;
+ text-align: left;
+ color:#b8bccc;
+
+ 
+
+}
+#dataDiv {
+  background-color: black;
+  color: white;
+}
+iframe {
+  border: 20px solid #575a85;
+}
+#searchBox {
+  height: 40px;
+  border: 2px solid white;
+  color: black;
+}
+#infoDiv1 > div {
+  color: #4c4f74;
+}
+#mg {
+  width: 40px;
+}
+#searchbarDiv {
+  width: 90%;
+  background-color: white;
+  color: black;
+  margin: 5px auto;
+}
